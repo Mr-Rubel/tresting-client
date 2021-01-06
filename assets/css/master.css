@@ -1,0 +1,79 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:  Nevica
+Version:  1.0
+Assigned to:  Alex Zaymund
+Primary use:  Nevica
+-------------------------------------------------------------------*/
+
+
+/* FONTS*/
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Montserrat:400,500,600,700';
+/*@import '../css/fonts/all.min.css';*/
+@import '../css/fonts/style.css';
+@import '../css/fonts/custom.css';
+@import '../css/fonts/pe-icon-7-stroke.css';
+@import '../css/fonts/simple-line-icons.css';
+@import '../css/fonts/flaticon.css';
+
+
+
+
+
+/* PLUGIN CSS */
+
+@import 'bootstrap.css';                /* bootstrap */
+@import 'header.css';                /* header */
+@import 'yamm.css';                /* header */
+@import 'slider-pro.css';         /* main slider */
+@import 'slick.css';         /* sliders */
+@import 'slick-theme.css';         /* sliders */
+@import 'magnific-popup.css';            /* modal */
+@import 'animate.css';                        /* animations */
+@import 'playful.css';          /* video-player */
+@import 'nouislider.css';          /* slider number */
+@import 'bootstrap-select.min.css';                /* bootstrap-select */
+
+
+
+/* MAIN CSS */
+
+@import 'main.css';
+@import 'color.css';
+@import 'responsive.css';
+
+.about-index { padding:60px 0px; }
+.main-menu li.nav-item {
+    border-bottom: 5px solid #eee0;
+}
+
+.main-menu li.nav-item:hover {
+	border-bottom: 5px solid #b43f96 !important;
+}
+
+.top-bar__item a { color: #fff; }
+.top-bar__item a:hover { color: #b43f96 !important; }
+.footer-list ul li a:before {
+	color: #b43f96;
+}
+.footer-soc .footer-soc__link .footer-soc__link:hover { color:#b43f96; }
+
+.btn.btn-custom {
+    background: #00b0eb;
+    color: #fff;
+}
+.btn.btn-custom:hover {
+    background: #b43f96;
+    color: #fff;
+}
+
+.b-goods__price {
+    padding-left: 20px;
+    padding-bottom: 18px;
+    font: 700 17px Montserrat;
+    color: #222;
+    text-align: left;
+}
+
+.footer_contact_icon i { width: 27px;display: inline-block;font-size: 14px; }
